@@ -21,5 +21,5 @@ The method recognizes agent goals from observed actions by:
 
 ### 1. Clone repository
 ```bash
-git clone https://github.com/yourusername/goal-recognition-reproduce.git
+git clone https://github.com/nolly-B/goal-recognition-reproduce.git
 cd goal-recognition-reproduce
