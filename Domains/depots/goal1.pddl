@@ -7,4 +7,5 @@
     (at crate2 depot1)
   )
   (:goal (at crate1 depot2))
+  (:metric minimize (total-cost))
 )

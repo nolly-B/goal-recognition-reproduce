@@ -7,4 +7,5 @@
     (at crate2 depot1)
   )
   (:goal (and (at crate1 depot2) (at crate2 depot3)))
+  (:metric minimize (total-cost))
 )
