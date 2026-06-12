@@ -12,4 +12,5 @@
     (available planer)
   )
   (:goal (processed w1))
+  (:metric minimize (total-cost))
 )
