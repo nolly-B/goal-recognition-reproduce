@@ -11,4 +11,5 @@
     (above f5 f4)
   )
   (:goal (at e1 f4))
+  (:metric minimize (total-cost))
 )
