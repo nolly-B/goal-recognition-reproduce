@@ -3,8 +3,7 @@
   (:objects cityA cityB - city
            loc1 loc2 loc3 - location
            truck1 - truck
-           airplane1 - airplane
-           package1 - location)
+           airplane1 - airplane)
   (:init
     (at truck1 loc1)
     (at airplane1 loc2)
@@ -17,4 +16,5 @@
     (connected loc3 loc2)
   )
   (:goal (at truck1 loc2))
+  (:metric minimize (total-cost))
 )
