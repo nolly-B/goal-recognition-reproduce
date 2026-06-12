@@ -10,4 +10,5 @@
     (truck-at truck2 loc2)
   )
   (:goal (driver-at driver1 loc2))
+  (:metric minimize (total-cost))
 )
