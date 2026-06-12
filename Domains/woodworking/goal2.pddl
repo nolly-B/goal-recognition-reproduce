@@ -1,0 +1,15 @@
+(define (problem woodworking-goal2)
+  (:domain woodworking)
+  (:objects w1 w2 w3 - wood
+           sander saw planer - machine)
+  (:init
+    (raw w1) (raw w2) (raw w3)
+    (at w1 sander)
+    (at w2 saw)
+    (at w3 planer)
+    (available sander)
+    (available saw)
+    (available planer)
+  )
+  (:goal (and (processed w1) (processed w2)))
+)
